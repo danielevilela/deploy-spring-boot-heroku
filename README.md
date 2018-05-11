@@ -3,7 +3,7 @@
 Heroku is a Plataform as a Service – (PaaS) that enables developers to build, run and manage applications entirely in the cloud.
 
 In this post, following easy steps, you’ll be able to deploy your App in few minutes.
-
+(For this tutorial, I used a simple rest API.) 
 You can do all the steps using comand line, but it’s nice to have a perspective on how the plataform works.
 
 ## Part I – Create an app on Heroku
@@ -20,7 +20,7 @@ Choose your name for the app and then click: Create app. You’ll see something 
 With Heroku CLI you can manage your applications using command line.
 You can download it here: [Heroku Dev Center](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
 
-After installation, enter the following command to login to your Heroky account:
+After installation, enter the following command to login to your Heroku account:
 
 heroku login
 You’ll be asked to enter your credentials: email and password
