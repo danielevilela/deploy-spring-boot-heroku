@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,6 +30,12 @@ public class GuestsControler {
 	@PostMapping
 	public String salvar(Guest guest) {
 		this.guests.save(guest); 
+		return "redirect:/guests";
+	}
+	
+	@DeleteMapping
+	public String delete(Guest guest) {
+		this.guests.delete(guest); 
 		return "redirect:/guests";
 	}
 }

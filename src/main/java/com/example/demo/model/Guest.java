@@ -35,5 +35,4 @@ public class Guest implements Serializable {
 		this.surname = surname;
 	}
 	
-	
 }
