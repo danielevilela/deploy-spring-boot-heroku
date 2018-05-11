@@ -16,7 +16,6 @@ public class Guest implements Serializable {
 	
 	private String name;
 	private String surname;
-	private Integer quant;
 	public Long getId() {
 		return Id;
 	}
@@ -28,12 +27,6 @@ public class Guest implements Serializable {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public Integer getQuant() {
-		return quant;
-	}
-	public void setQuant(Integer quant) {
-		this.quant = quant;
 	}
 	public String getSurname() {
 		return surname;

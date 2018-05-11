@@ -28,7 +28,7 @@ public class GuestsControler {
 	
 	@PostMapping
 	public String salvar(Guest guest) {
-		this.guests.save(guest);
+		this.guests.save(guest); 
 		return "redirect:/guests";
 	}
 }
